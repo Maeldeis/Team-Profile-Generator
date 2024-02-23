@@ -39,9 +39,9 @@ const {
       } catch (error) {
         console.error(error);
       }
-    
     }
     init();
+    
     
     
     
