@@ -25,6 +25,24 @@ const {
             const engineerData = await promptEngineer();
             const engineer = new Engineer(engineerData.name, engineerData.id, engineerData.email, engineerData.github);
             teamMembers.push(engineer);
+        } else if (addTeamMembers === "Intern") {
+            const internData = await promptInern();
+            const intern = new Intern(internData.name, internData.id, internData.email, internData.school);
+            teamMembers.push(intern);
+          } else {
+            addMoreTeamMembers = false;
+          }
+        }
+        const html = render(teamMembers);
+        fs.writeFileSync(outputPath, html);
+        console.log(`Team profile generated at ./output/team.html`);
+      } catch (error) {
+        console.error(error);
+      }
+    
+    }
+    init();
+    
     
     
 
