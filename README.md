@@ -10,6 +10,7 @@ An application that generates HTML files using input from a command-line interfa
 ## Images
 
 ![Generated Team Profile](./images/demo.png)
+![Generated Team Profile](./images/demo1.png)
 
 ## Technologies
 
