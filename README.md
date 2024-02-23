@@ -2,16 +2,28 @@
  
 An application that generates HTML files using input from a command-line interface.
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
-## Description
-- [Installation](#installation)
-    - [Steps](#steps)
-  - [Usage](#usage)
-  - [Technologies](#technologies)
   - [Images](#images)
+  - [Technologies](#technologies)
   - [License](#license)
   - [Contributing](#contributing)
-  - [Questions](#questions)
 
-  
+## Images
+
+![Generated Team Profile](./images/demo.png)
+
+## Technologies
+
+- JavaScript
+- [Node.js](https://nodejs.org/)
+- NPM
+- [Inquirer](https://www.npmjs.com/package//inquirer)
+- [Jest](https://www.npmjs.com/package/jest)
+
+
+## License
+
+This application is covered under the MIT License.
+
+## Contributing
+
+For contributions, contact me [here](https://github.com/Maeldeis).
